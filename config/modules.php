@@ -1,0 +1,256 @@
+<?php
+
+return [
+    /*
+    |--------------------------------------------------------------------------
+    | Available System Modules
+    |--------------------------------------------------------------------------
+    | Every toggleable module in the platform with metadata, dependencies,
+    | and core flag.
+    */
+    'modules' => [
+        'call_capture' => [
+            'name' => 'Call Capture & Ingestion',
+            'description' => 'Multi-channel audio/video upload, telephony connectors (Twilio, Zoom, Meet, Teams, PBX), and WebRTC softphone.',
+            'category' => 'intelligence',
+            'price' => 19.00,
+            'is_core' => true,
+            'icon' => 'heroicon-o-arrow-up-tray',
+            'dependencies' => [],
+        ],
+        'transcription' => [
+            'name' => 'Transcription Engine',
+            'description' => 'Multi-provider speech-to-text via laravel-ai-hub, diarization, 50+ languages, PII redaction, and synced transcript editor.',
+            'category' => 'intelligence',
+            'price' => 29.00,
+            'is_core' => true,
+            'icon' => 'heroicon-o-document-text',
+            'dependencies' => ['call_capture'],
+        ],
+        'ai_scoring' => [
+            'name' => 'AI Call Analysis & Scoring',
+            'description' => 'Automatic scorecard evaluation (0-100), emotion timeline, BANT/MEDDIC frameworks, objection detection, and deal likelihood.',
+            'category' => 'intelligence',
+            'price' => 49.00,
+            'is_core' => false,
+            'icon' => 'heroicon-o-cpu-chip',
+            'dependencies' => ['transcription'],
+        ],
+        'call_library' => [
+            'name' => 'Call Library & Search',
+            'description' => 'Full-text & semantic vector search across call transcripts, playlists, best-call library, and timestamped annotations.',
+            'category' => 'intelligence',
+            'price' => 15.00,
+            'is_core' => false,
+            'icon' => 'heroicon-o-magnifying-glass',
+            'dependencies' => ['transcription'],
+        ],
+        'live_assist' => [
+            'name' => 'Live Call Assist',
+            'description' => 'Real-time live transcription, objection counter-cards, live talk-to-listen gauge, and manager whisper/barge.',
+            'category' => 'intelligence',
+            'price' => 39.00,
+            'is_core' => false,
+            'icon' => 'heroicon-o-signal',
+            'dependencies' => ['call_capture', 'ai_scoring'],
+        ],
+        'coaching' => [
+            'name' => 'Coaching & Training',
+            'description' => 'Automated agent feedback, 1:1 coaching plans, learning paths, interactive role-play simulator with AI prospect, and quizzes.',
+            'category' => 'operations',
+            'price' => 29.00,
+            'is_core' => false,
+            'icon' => 'heroicon-o-academic-cap',
+            'dependencies' => ['ai_scoring'],
+        ],
+        'qa_workflow' => [
+            'name' => 'Quality Assurance (QA) Workflow',
+            'description' => 'Sampling review queues, side-by-side manual scorecard grading, agent dispute resolution, and calibration sessions.',
+            'category' => 'operations',
+            'price' => 25.00,
+            'is_core' => false,
+            'icon' => 'heroicon-o-clipboard-document-check',
+            'dependencies' => ['ai_scoring'],
+        ],
+        'compliance' => [
+            'name' => 'Compliance & Risk Management',
+            'description' => 'Phrase rule builder, recording consent tracking, HIPAA/PCI redaction, DNC checking, and automated violation alerts.',
+            'category' => 'operations',
+            'price' => 35.00,
+            'is_core' => false,
+            'icon' => 'heroicon-o-shield-check',
+            'dependencies' => ['transcription'],
+        ],
+        'crm_leads' => [
+            'name' => 'CRM & Pipeline Leads',
+            'description' => 'Contacts, deals, auto-lead generation from calls, company enrichment via laravel-ai-catalog, and CRM 2-way sync.',
+            'category' => 'sales',
+            'price' => 29.00,
+            'is_core' => false,
+            'icon' => 'heroicon-o-user-group',
+            'dependencies' => ['call_capture'],
+        ],
+        'campaigns_dialer' => [
+            'name' => 'Outbound Campaigns & Dialer',
+            'description' => 'Predictive, power, and preview dialer modes, call campaign lists, timezone rules, and campaign conversion analytics.',
+            'category' => 'sales',
+            'price' => 39.00,
+            'is_core' => false,
+            'icon' => 'heroicon-o-phone-arrow-up-right',
+            'dependencies' => ['crm_leads'],
+        ],
+        'scripts_playbooks' => [
+            'name' => 'Scripts, Playbooks & Battlecards',
+            'description' => 'Interactive sales scripts, objection-handling library, competitor battlecards researched via laravel-ai-catalog.',
+            'category' => 'sales',
+            'price' => 19.00,
+            'is_core' => false,
+            'icon' => 'heroicon-o-book-open',
+            'dependencies' => [],
+        ],
+        'analytics_reporting' => [
+            'name' => 'Analytics & Reporting Hub',
+            'description' => 'Executive & branch dashboards, category heatmaps, agent benchmarks, and multilingual PDF export via laravel-unicode-pdf.',
+            'category' => 'intelligence',
+            'price' => 29.00,
+            'is_core' => false,
+            'icon' => 'heroicon-o-chart-bar',
+            'dependencies' => ['ai_scoring'],
+        ],
+        'ai_assistant' => [
+            'name' => 'Ask Your Calls (AI Assistant)',
+            'description' => 'Natural-language chatbot connected to your call recordings with cited timestamps, trends summary, and anomaly digests.',
+            'category' => 'intelligence',
+            'price' => 29.00,
+            'is_core' => false,
+            'icon' => 'heroicon-o-sparkles',
+            'dependencies' => ['transcription', 'ai_scoring'],
+        ],
+        'attendance_hr' => [
+            'name' => 'Team, HR & Attendance Hub',
+            'description' => 'Biometric/RFID hardware integration via laravel-attendance-hub, shift rosters, overtime, and punctuality scoring.',
+            'category' => 'operations',
+            'price' => 25.00,
+            'is_core' => false,
+            'icon' => 'heroicon-o-clock',
+            'dependencies' => [],
+        ],
+        'commission_payroll' => [
+            'name' => 'Commission, Payroll & Incentives',
+            'description' => 'Tiered & score-accelerated commission calculations, payroll registers, and payslip generation via laravel-unicode-pdf.',
+            'category' => 'operations',
+            'price' => 29.00,
+            'is_core' => false,
+            'icon' => 'heroicon-o-banknotes',
+            'dependencies' => ['attendance_hr'],
+        ],
+        'billing_subscriptions' => [
+            'name' => 'Billing, Subscriptions & Invoicing',
+            'description' => 'Plan management, multi-gateway payments (Stripe, SSLCommerz, bKash, Nagad), and localized tax invoices.',
+            'category' => 'growth',
+            'price' => 0.00,
+            'is_core' => true,
+            'icon' => 'heroicon-o-credit-card',
+            'dependencies' => [],
+        ],
+        'reseller_whitelabel' => [
+            'name' => 'Reseller & White-Label Portal',
+            'description' => 'Custom domain, agency sub-tenants, markup billing, custom logo/branding, and partner commission sharing.',
+            'category' => 'growth',
+            'price' => 79.00,
+            'is_core' => false,
+            'icon' => 'heroicon-o-building-storefront',
+            'dependencies' => ['billing_subscriptions'],
+        ],
+        'integrations_automation' => [
+            'name' => 'Integrations & Workflow Builder',
+            'description' => 'No-code event trigger builder (Zapier, Slack, Webhooks) and telephony connector health monitor.',
+            'category' => 'operations',
+            'price' => 25.00,
+            'is_core' => false,
+            'icon' => 'heroicon-o-puzzle-piece',
+            'dependencies' => [],
+        ],
+        'support_surveys' => [
+            'name' => 'Support Desk & CSAT Surveys',
+            'description' => 'Internal ticket management and post-call SMS/Email CSAT/NPS feedback collection linked to call scores.',
+            'category' => 'operations',
+            'price' => 19.00,
+            'is_core' => false,
+            'icon' => 'heroicon-o-chat-bubble-left-right',
+            'dependencies' => ['call_capture'],
+        ],
+        'security_system' => [
+            'name' => 'Security & System Health',
+            'description' => 'Two-factor auth, spatie-backup management, audio encryption at rest, and audit trail activity viewer.',
+            'category' => 'core',
+            'price' => 0.00,
+            'is_core' => true,
+            'icon' => 'heroicon-o-lock-closed',
+            'dependencies' => [],
+        ],
+        'website_cms' => [
+            'name' => 'Public Website & CMS',
+            'description' => 'Public landing pages, multilingual slug management (laravel-universal-slug), case studies, and blog.',
+            'category' => 'growth',
+            'price' => 0.00,
+            'is_core' => true,
+            'icon' => 'heroicon-o-globe-alt',
+            'dependencies' => [],
+        ],
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Business Type Presets
+    |--------------------------------------------------------------------------
+    | One-click presets that configure recommended modules per business type.
+    */
+    'presets' => [
+        'call_center' => [
+            'name' => 'Call Center & BPO',
+            'description' => 'All modules enabled for large high-volume sales and customer service operations.',
+            'modules' => [
+                'call_capture', 'transcription', 'ai_scoring', 'call_library', 'live_assist',
+                'coaching', 'qa_workflow', 'compliance', 'crm_leads', 'campaigns_dialer',
+                'scripts_playbooks', 'analytics_reporting', 'ai_assistant', 'attendance_hr',
+                'commission_payroll', 'billing_subscriptions', 'integrations_automation',
+                'support_surveys', 'security_system', 'website_cms',
+            ],
+        ],
+        'saas_sales' => [
+            'name' => 'SaaS Sales Team',
+            'description' => 'Tailored for software sales with pipeline tracking, demo scoring, and battlecards.',
+            'modules' => [
+                'call_capture', 'transcription', 'ai_scoring', 'call_library', 'coaching',
+                'crm_leads', 'scripts_playbooks', 'analytics_reporting', 'ai_assistant',
+                'billing_subscriptions', 'integrations_automation', 'security_system', 'website_cms',
+            ],
+        ],
+        'real_estate' => [
+            'name' => 'Real Estate Sales Team',
+            'description' => 'Geared for property agents, lead follow-ups, and speed-to-lead scoring.',
+            'modules' => [
+                'call_capture', 'transcription', 'ai_scoring', 'call_library', 'crm_leads',
+                'campaigns_dialer', 'scripts_playbooks', 'analytics_reporting',
+                'billing_subscriptions', 'security_system', 'website_cms',
+            ],
+        ],
+        'insurance' => [
+            'name' => 'Insurance & Banking',
+            'description' => 'Heavy focus on compliance disclosures, QA audit trails, and strict retention.',
+            'modules' => [
+                'call_capture', 'transcription', 'ai_scoring', 'call_library', 'qa_workflow',
+                'compliance', 'crm_leads', 'scripts_playbooks', 'analytics_reporting',
+                'billing_subscriptions', 'security_system', 'website_cms',
+            ],
+        ],
+        'solo_freelancer' => [
+            'name' => 'Solo Freelancer / Consultant',
+            'description' => 'Minimal core modules for solo closers (proves modules-off capability).',
+            'modules' => [
+                'call_capture', 'transcription', 'billing_subscriptions', 'security_system', 'website_cms',
+            ],
+        ],
+    ],
+];

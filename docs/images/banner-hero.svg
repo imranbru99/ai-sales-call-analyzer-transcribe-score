@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 540" width="100%" height="auto">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E1B4B"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="540" fill="url(#bgGrad)"/>
+  <rect x="15" y="15" width="1250" height="510" rx="16" fill="none" stroke="#312E81" stroke-width="1.5"/>
+
+  <!-- Top Pill -->
+  <rect x="380" y="35" width="520" height="34" rx="17" fill="#1E1B4B" stroke="#6366F1" stroke-width="1"/>
+  <text x="640" y="57" fill="#C7D2FE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="1">✨ NEXT-GEN REVENUE INTELLIGENCE &amp; CALL AUDITING ENGINE</text>
+
+  <!-- Title & Subtitle -->
+  <text x="640" y="125" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="42" font-weight="800" text-anchor="middle">AI Sales Call Analyzer</text>
+  <text x="640" y="165" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="500" text-anchor="middle">Autonomous Call Transcription, AI Scoring (0–100) &amp; Deal Intelligence for Modern Revenue Teams</text>
+
+  <!-- 4 KPI Cards -->
+  <g transform="translate(50, 195)" filter="url(#shadow)">
+    <rect width="270" height="145" rx="12" fill="url(#cardGrad)" stroke="#10B981" stroke-width="1.5"/>
+    <text x="24" y="52" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800">96.7%</text>
+    <text x="24" y="85" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700">Time Saved Per Call</text>
+    <text x="24" y="112" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">45 min manual → 90s AI</text>
+  </g>
+
+  <g transform="translate(350, 195)" filter="url(#shadow)">
+    <rect width="270" height="145" rx="12" fill="url(#cardGrad)" stroke="#6366F1" stroke-width="1.5"/>
+    <text x="24" y="52" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800">100%</text>
+    <text x="24" y="85" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700">QA Audit Coverage</text>
+    <text x="24" y="112" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">vs 2% manual sampling</text>
+  </g>
+
+  <g transform="translate(650, 195)" filter="url(#shadow)">
+    <rect width="270" height="145" rx="12" fill="url(#cardGrad)" stroke="#F59E0B" stroke-width="1.5"/>
+    <text x="24" y="52" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800">88.5</text>
+    <text x="24" y="85" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700">Avg AI Scorecard</text>
+    <text x="24" y="112" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">BANT / MEDDIC Extraction</text>
+  </g>
+
+  <g transform="translate(950, 195)" filter="url(#shadow)">
+    <rect width="270" height="145" rx="12" fill="url(#cardGrad)" stroke="#06B6D4" stroke-width="1.5"/>
+    <text x="24" y="52" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800">22 Suites</text>
+    <text x="24" y="85" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700">Modular Framework</text>
+    <text x="24" y="112" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">1-click toggleable business stack</text>
+  </g>
+
+  <!-- Bottom Badges Bar -->
+  <rect x="50" y="375" width="1170" height="110" rx="12" fill="#121826" stroke="#1E293B" stroke-width="1"/>
+  <text x="75" y="405" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">ENTERPRISE READY ARCHITECTURE &amp; AUTOMATION DRIVERS</text>
+  
+  <g transform="translate(75, 425)">
+    <rect x="0" y="0" width="105" height="36" rx="6" fill="#1E293B" stroke="#777BB4" stroke-width="1"/>
+    <text x="52" y="23" fill="#FFFFFF" font-family="monospace" font-size="12" font-weight="600" text-anchor="middle">PHP 8.4+</text>
+
+    <rect x="120" y="0" width="125" height="36" rx="6" fill="#1E293B" stroke="#EF4444" stroke-width="1"/>
+    <text x="182" y="23" fill="#FFFFFF" font-family="monospace" font-size="12" font-weight="600" text-anchor="middle">Laravel 12.x</text>
+
+    <rect x="260" y="0" width="125" height="36" rx="6" fill="#1E293B" stroke="#F59E0B" stroke-width="1"/>
+    <text x="322" y="23" fill="#FFFFFF" font-family="monospace" font-size="12" font-weight="600" text-anchor="middle">Filament v3</text>
+
+    <rect x="400" y="0" width="190" height="36" rx="6" fill="#1E293B" stroke="#6366F1" stroke-width="1"/>
+    <text x="495" y="23" fill="#FFFFFF" font-family="monospace" font-size="12" font-weight="600" text-anchor="middle">4 Filament Panels</text>
+
+    <rect x="605" y="0" width="175" height="36" rx="6" fill="#1E293B" stroke="#10B981" stroke-width="1"/>
+    <text x="692" y="23" fill="#FFFFFF" font-family="monospace" font-size="12" font-weight="600" text-anchor="middle">Biometric RFID</text>
+
+    <rect x="795" y="0" width="185" height="36" rx="6" fill="#1E293B" stroke="#06B6D4" stroke-width="1"/>
+    <text x="887" y="23" fill="#FFFFFF" font-family="monospace" font-size="12" font-weight="600" text-anchor="middle">Unicode PDF Suite</text>
+
+    <rect x="995" y="0" width="150" height="36" rx="6" fill="#1E293B" stroke="#EC4899" stroke-width="1"/>
+    <text x="1070" y="23" fill="#FFFFFF" font-family="monospace" font-size="12" font-weight="600" text-anchor="middle">12 Demo Roles</text>
+  </g>
+</svg>

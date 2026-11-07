@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="100%" height="auto">
+  <rect width="1200" height="700" fill="#0F172A"/>
+  <rect x="15" y="15" width="1170" height="670" rx="14" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+
+  <!-- Header -->
+  <rect x="35" y="35" width="1130" height="80" rx="10" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+  <text x="55" y="68" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700">AI Evaluation &amp; Scorecard Breakdown (0–100)</text>
+  <text x="55" y="95" fill="#94A3B8" font-size="13">Call #1042 • Rep: Sarah Jenkins • Prospect: Acme Cloud Corp • Overall AI Score: 88.5 / 100</text>
+
+  <rect x="1000" y="48" width="145" height="52" rx="8" fill="#064E3B" stroke="#10B981" stroke-width="1"/>
+  <text x="1072" y="74" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" text-anchor="middle">88.5</text>
+  <text x="1072" y="92" fill="#A7F3D0" font-size="11" font-weight="700" text-anchor="middle">PASSED QA</text>
+
+  <!-- Left Column: Criteria Progress Bars -->
+  <rect x="35" y="130" width="545" height="535" rx="10" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+  <text x="55" y="165" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700">Rubric Criteria Breakdown</text>
+
+  <!-- Criteria 1 -->
+  <g transform="translate(55, 185)">
+    <text x="0" y="15" fill="#E2E8F0" font-size="14" font-weight="700">1. Rapport &amp; Active Greeting</text>
+    <text x="450" y="15" fill="#34D399" font-size="13" font-weight="700">94 / 100</text>
+    <rect x="0" y="24" width="505" height="8" rx="4" fill="#1E293B"/>
+    <rect x="0" y="24" width="474" height="8" rx="4" fill="#10B981"/>
+    <text x="0" y="48" fill="#94A3B8" font-size="12">Warm intro, verified prospect agenda, polite and consultative tone.</text>
+  </g>
+
+  <!-- Criteria 2 -->
+  <g transform="translate(55, 260)">
+    <text x="0" y="15" fill="#E2E8F0" font-size="14" font-weight="700">2. Discovery &amp; Deep Pain Analysis</text>
+    <text x="450" y="15" fill="#34D399" font-size="13" font-weight="700">90 / 100</text>
+    <rect x="0" y="24" width="505" height="8" rx="4" fill="#1E293B"/>
+    <rect x="0" y="24" width="454" height="8" rx="4" fill="#10B981"/>
+    <text x="0" y="48" fill="#94A3B8" font-size="12">Uncovered $120k manual QA backlog and coaching bottleneck.</text>
+  </g>
+
+  <!-- Criteria 3 -->
+  <g transform="translate(55, 335)">
+    <text x="0" y="15" fill="#E2E8F0" font-size="14" font-weight="700">3. BANT / MEDDIC Qualification</text>
+    <text x="450" y="15" fill="#34D399" font-size="13" font-weight="700">86 / 100</text>
+    <rect x="0" y="24" width="505" height="8" rx="4" fill="#1E293B"/>
+    <rect x="0" y="24" width="434" height="8" rx="4" fill="#10B981"/>
+    <text x="0" y="48" fill="#94A3B8" font-size="12">Budget ($45k) and Authority (VP) firmly established.</text>
+  </g>
+
+  <!-- Criteria 4 -->
+  <g transform="translate(55, 410)">
+    <text x="0" y="15" fill="#E2E8F0" font-size="14" font-weight="700">4. Objection Handling &amp; Battlecards</text>
+    <text x="450" y="15" fill="#34D399" font-size="13" font-weight="700">84 / 100</text>
+    <rect x="0" y="24" width="505" height="8" rx="4" fill="#1E293B"/>
+    <rect x="0" y="24" width="424" height="8" rx="4" fill="#10B981"/>
+    <text x="0" y="48" fill="#94A3B8" font-size="12">Addressed Gong pricing comparison using dynamic battlecard.</text>
+  </g>
+
+  <!-- Criteria 5 -->
+  <g transform="translate(55, 485)">
+    <text x="0" y="15" fill="#E2E8F0" font-size="14" font-weight="700">5. Value Proposition &amp; Solution Fit</text>
+    <text x="450" y="15" fill="#34D399" font-size="13" font-weight="700">88 / 100</text>
+    <rect x="0" y="24" width="505" height="8" rx="4" fill="#1E293B"/>
+    <rect x="0" y="24" width="444" height="8" rx="4" fill="#10B981"/>
+    <text x="0" y="48" fill="#94A3B8" font-size="12">Demonstrated 90s instant scoring &amp; roleplay LMS coaching.</text>
+  </g>
+
+  <!-- Criteria 6 -->
+  <g transform="translate(55, 560)">
+    <text x="0" y="15" fill="#E2E8F0" font-size="14" font-weight="700">6. Closing &amp; Next Steps Commitment</text>
+    <text x="450" y="15" fill="#34D399" font-size="13" font-weight="700">89 / 100</text>
+    <rect x="0" y="24" width="505" height="8" rx="4" fill="#1E293B"/>
+    <rect x="0" y="24" width="449" height="8" rx="4" fill="#10B981"/>
+    <text x="0" y="48" fill="#94A3B8" font-size="12">Locked technical deep-dive for next Thursday 2 PM.</text>
+  </g>
+
+  <!-- Right Column: BANT & Signals -->
+  <rect x="600" y="130" width="565" height="535" rx="10" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+  <text x="620" y="165" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700">BANT &amp; Deal Risk Signals</text>
+
+  <!-- BANT 1 -->
+  <g transform="translate(620, 185)">
+    <rect width="525" height="60" rx="8" fill="#182138" stroke="#6366F1" stroke-width="1"/>
+    <text x="15" y="22" fill="#818CF8" font-size="12" font-weight="700">Budget (B)</text>
+    <text x="15" y="44" fill="#E2E8F0" font-size="12">$45,000 annual software budget already approved for Q4.</text>
+  </g>
+
+  <!-- BANT 2 -->
+  <g transform="translate(620, 255)">
+    <rect width="525" height="60" rx="8" fill="#182138" stroke="#10B981" stroke-width="1"/>
+    <text x="15" y="22" fill="#34D399" font-size="12" font-weight="700">Authority (A)</text>
+    <text x="15" y="44" fill="#E2E8F0" font-size="12">VP of Sales Operations &amp; QA Lead both present on call.</text>
+  </g>
+
+  <!-- BANT 3 -->
+  <g transform="translate(620, 325)">
+    <rect width="525" height="60" rx="8" fill="#182138" stroke="#F59E0B" stroke-width="1"/>
+    <text x="15" y="22" fill="#FBBF24" font-size="12" font-weight="700">Need (N)</text>
+    <text x="15" y="44" fill="#E2E8F0" font-size="12">Eliminate manual QA delays, coach 85 reps in real-time.</text>
+  </g>
+
+  <!-- BANT 4 -->
+  <g transform="translate(620, 395)">
+    <rect width="525" height="60" rx="8" fill="#182138" stroke="#06B6D4" stroke-width="1"/>
+    <text x="15" y="22" fill="#22D3EE" font-size="12" font-weight="700">Timeline (T)</text>
+    <text x="15" y="44" fill="#E2E8F0" font-size="12">Contract signing Nov 30; system rollout starting Jan 1.</text>
+  </g>
+
+  <!-- Deal Signals Box -->
+  <g transform="translate(620, 470)">
+    <rect width="525" height="175" rx="8" fill="#121826" stroke="#6366F1" stroke-width="1"/>
+    <text x="15" y="25" fill="#C7D2FE" font-size="11" font-weight="700">DEAL PREDICTIVE SIGNALS &amp; BATTLECARDS</text>
+    <text x="15" y="52" fill="#F87171" font-size="13" font-weight="700">• Competitors Mentioned: [Gong.io] [Chorus.ai]</text>
+    <text x="15" y="76" fill="#94A3B8" font-size="12">• Battlecard Applied: High-density pricing &amp; biometric hardware advantage</text>
+    <text x="15" y="100" fill="#34D399" font-size="13" font-weight="700">• Deal Health Score: 84 / 100 (High Velocity Close)</text>
+    <text x="15" y="124" fill="#94A3B8" font-size="12">• Ghosting Risk: 12% (Extremely Low Probability of Inaction)</text>
+    <text x="15" y="148" fill="#34D399" font-size="12">• Compliance Redaction: 0 PCI violations detected, GDPR statement OK</text>
+  </g>
+</svg>

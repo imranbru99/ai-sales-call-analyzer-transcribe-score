@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="auto">
+  <rect width="1200" height="680" fill="#0F172A"/>
+  <rect x="15" y="15" width="1170" height="650" rx="14" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+
+  <text x="600" y="65" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="30" font-weight="800" text-anchor="middle">Filament v3 Multi-Panel Architecture</text>
+  <text x="600" y="98" fill="#94A3B8" font-size="15" text-anchor="middle">Dedicated Role-Isolated Workspaces for Super Admins, Businesses, Agents, and Clients</text>
+
+  <!-- Panel 1: Platform -->
+  <g transform="translate(40, 130)">
+    <rect width="545" height="230" rx="10" fill="#0F172A" stroke="#EF4444" stroke-width="1.5"/>
+    <rect x="20" y="15" width="100" height="26" rx="4" fill="#1E293B"/>
+    <text x="70" y="32" fill="#FFFFFF" font-family="monospace" font-size="13" font-weight="700" text-anchor="middle">/platform</text>
+    <text x="140" y="32" fill="#EF4444" font-size="12" font-weight="700">PLATFORM ADMIN</text>
+    <text x="20" y="70" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700">Super Admin Panel</text>
+    <text x="25" y="105" fill="#CBD5E1" font-size="13">✓ Multi-Tenant Provisioning &amp; Database Isolation</text>
+    <text x="25" y="132" fill="#CBD5E1" font-size="13">✓ Subscription Plan Management &amp; Quota Limits</text>
+    <text x="25" y="159" fill="#CBD5E1" font-size="13">✓ Global AI Usage Profiler &amp; Caching (Drutogoti)</text>
+    <text x="25" y="186" fill="#CBD5E1" font-size="13">✓ Biometric Device Health &amp; RFID Attendance Drivers</text>
+    <text x="25" y="213" fill="#CBD5E1" font-size="13">✓ Master Security &amp; Activity Audit Trails</text>
+  </g>
+
+  <!-- Panel 2: Business -->
+  <g transform="translate(615, 130)">
+    <rect width="545" height="230" rx="10" fill="#0F172A" stroke="#6366F1" stroke-width="1.5"/>
+    <rect x="20" y="15" width="80" height="26" rx="4" fill="#1E293B"/>
+    <text x="60" y="32" fill="#FFFFFF" font-family="monospace" font-size="13" font-weight="700" text-anchor="middle">/app</text>
+    <text x="120" y="32" fill="#6366F1" font-size="12" font-weight="700">BUSINESS TENANT</text>
+    <text x="20" y="70" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700">Business Workspace</text>
+    <text x="25" y="105" fill="#CBD5E1" font-size="13">✓ Full Call Intelligence &amp; Waveform Visualizer</text>
+    <text x="25" y="132" fill="#CBD5E1" font-size="13">✓ 22 Modular Suite Toggle Manager</text>
+    <text x="25" y="159" fill="#CBD5E1" font-size="13">✓ Automated Coaching Pipelines &amp; LMS Roleplay</text>
+    <text x="25" y="186" fill="#CBD5E1" font-size="13">✓ QA Calibration &amp; Blind Scoring Sessions</text>
+    <text x="25" y="213" fill="#CBD5E1" font-size="13">✓ Biometric RFID Shift &amp; Attendance Hub</text>
+  </g>
+
+  <!-- Panel 3: Agent -->
+  <g transform="translate(40, 385)">
+    <rect width="545" height="230" rx="10" fill="#0F172A" stroke="#10B981" stroke-width="1.5"/>
+    <rect x="20" y="15" width="80" height="26" rx="4" fill="#1E293B"/>
+    <text x="60" y="32" fill="#FFFFFF" font-family="monospace" font-size="13" font-weight="700" text-anchor="middle">/agent</text>
+    <text x="120" y="32" fill="#10B981" font-size="12" font-weight="700">SALES REPS &amp; CLOSERS</text>
+    <text x="20" y="70" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700">Rep Performance Portal</text>
+    <text x="25" y="105" fill="#CBD5E1" font-size="13">✓ Personalized Call Waveform &amp; Synced Transcripts</text>
+    <text x="25" y="132" fill="#CBD5E1" font-size="13">✓ AI Scorecards &amp; Objection Handling Breakdowns</text>
+    <text x="25" y="159" fill="#CBD5E1" font-size="13">✓ Bite-Sized Coaching Quizzes &amp; Speech Drills</text>
+    <text x="25" y="186" fill="#CBD5E1" font-size="13">✓ Earned Commissions &amp; Payroll Tracker</text>
+    <text x="25" y="213" fill="#CBD5E1" font-size="13">✓ Clock-In &amp; Shift Roster Verification</text>
+  </g>
+
+  <!-- Panel 4: Portal -->
+  <g transform="translate(615, 385)">
+    <rect width="545" height="230" rx="10" fill="#0F172A" stroke="#F59E0B" stroke-width="1.5"/>
+    <rect x="20" y="15" width="80" height="26" rx="4" fill="#1E293B"/>
+    <text x="60" y="32" fill="#FFFFFF" font-family="monospace" font-size="13" font-weight="700" text-anchor="middle">/portal</text>
+    <text x="120" y="32" fill="#F59E0B" font-size="12" font-weight="700">PARTNERS &amp; CLIENTS</text>
+    <text x="20" y="70" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700">Client &amp; Reseller Portal</text>
+    <text x="25" y="105" fill="#CBD5E1" font-size="13">✓ Shared Call Summaries &amp; Redacted Transcripts</text>
+    <text x="25" y="132" fill="#CBD5E1" font-size="13">✓ One-Click Proposal &amp; Contract Sign-off</text>
+    <text x="25" y="159" fill="#CBD5E1" font-size="13">✓ Post-Call CSAT 1–5 Star Survey Submissions</text>
+    <text x="25" y="186" fill="#CBD5E1" font-size="13">✓ White-Label Sub-Tenant Account Provisioning</text>
+    <text x="25" y="213" fill="#CBD5E1" font-size="13">✓ Affiliate &amp; Agency Revenue Margin Tracking</text>
+  </g>
+</svg>

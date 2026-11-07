@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="100%" height="auto">
+  <rect width="1200" height="700" fill="#0F172A"/>
+  <rect x="15" y="15" width="1170" height="670" rx="14" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+
+  <text x="600" y="55" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" text-anchor="middle">22 Dynamic Modular Business Suites</text>
+  <text x="600" y="85" fill="#94A3B8" font-size="14" text-anchor="middle">Independent Toggle Control: Modules Disappear Completely from Menus &amp; APIs When Disabled</text>
+
+  <!-- 6 Category Boxes -->
+  <!-- Box 1 -->
+  <g transform="translate(40, 115)">
+    <rect width="360" height="160" rx="8" fill="#0F172A" stroke="#3B82F6" stroke-width="1"/>
+    <text x="15" y="28" fill="#60A5FA" font-size="15" font-weight="700">1. Telephony &amp; Capture</text>
+    <text x="18" y="60" fill="#E2E8F0" font-size="12">• Core Multi-Tenancy &amp; Auth (Free)</text>
+    <text x="18" y="86" fill="#E2E8F0" font-size="12">• Call Capture &amp; WebRTC Softphone (Free)</text>
+    <text x="18" y="112" fill="#E2E8F0" font-size="12">• 50+ Language Transcription Engine (Free)</text>
+    <text x="18" y="138" fill="#94A3B8" font-size="11">Twilio, Asterisk ARI, Zoom Meeting connectors</text>
+  </g>
+
+  <!-- Box 2 -->
+  <g transform="translate(420, 115)">
+    <rect width="360" height="160" rx="8" fill="#0F172A" stroke="#10B981" stroke-width="1"/>
+    <text x="15" y="28" fill="#34D399" font-size="15" font-weight="700">2. AI Scoring &amp; Quality</text>
+    <text x="18" y="60" fill="#E2E8F0" font-size="12">• 0–100 AI Scorecard Engine ($49/mo)</text>
+    <text x="18" y="86" fill="#E2E8F0" font-size="12">• QA Review &amp; Blind Calibration ($35/mo)</text>
+    <text x="18" y="112" fill="#E2E8F0" font-size="12">• Compliance &amp; PCI Auto-Redact ($45/mo)</text>
+    <text x="18" y="138" fill="#94A3B8" font-size="11">Rubric weighting, dispute disputes, audio bleep</text>
+  </g>
+
+  <!-- Box 3 -->
+  <g transform="translate(800, 115)">
+    <rect width="360" height="160" rx="8" fill="#0F172A" stroke="#F59E0B" stroke-width="1"/>
+    <text x="15" y="28" fill="#FBBF24" font-size="15" font-weight="700">3. Revenue &amp; Pipeline</text>
+    <text x="18" y="60" fill="#E2E8F0" font-size="12">• Deal &amp; Ghosting Intelligence ($49/mo)</text>
+    <text x="18" y="86" fill="#E2E8F0" font-size="12">• Native CRM &amp; Contacts Light ($19/mo)</text>
+    <text x="18" y="112" fill="#E2E8F0" font-size="12">• Outbound Campaign Dialing ($29/mo)</text>
+    <text x="18" y="138" fill="#94A3B8" font-size="11">• Real-Time Scripts &amp; Battlecards ($25/mo)</text>
+  </g>
+
+  <!-- Box 4 -->
+  <g transform="translate(40, 295)">
+    <rect width="360" height="160" rx="8" fill="#0F172A" stroke="#A855F7" stroke-width="1"/>
+    <text x="15" y="28" fill="#C084FC" font-size="15" font-weight="700">4. Growth &amp; Coaching</text>
+    <text x="18" y="60" fill="#E2E8F0" font-size="12">• Automated Coaching Workouts ($29/mo)</text>
+    <text x="18" y="86" fill="#E2E8F0" font-size="12">• Training LMS &amp; Voice Simulator ($39/mo)</text>
+    <text x="18" y="112" fill="#E2E8F0" font-size="12">• Public Marketing CMS (Universal Slug)</text>
+    <text x="18" y="138" fill="#94A3B8" font-size="11">Skill deficiency auto-assignment &amp; trackable drills</text>
+  </g>
+
+  <!-- Box 5 -->
+  <g transform="translate(420, 295)">
+    <rect width="360" height="160" rx="8" fill="#0F172A" stroke="#EC4899" stroke-width="1"/>
+    <text x="15" y="28" fill="#F472B6" font-size="15" font-weight="700">5. Operations &amp; Finance</text>
+    <text x="18" y="60" fill="#E2E8F0" font-size="12">• Biometric RFID Attendance Hub ($29/mo)</text>
+    <text x="18" y="86" fill="#E2E8F0" font-size="12">• Tiered Commissions &amp; Payroll ($39/mo)</text>
+    <text x="18" y="112" fill="#E2E8F0" font-size="12">• Multi-Tenant Billing &amp; Invoicing ($19/mo)</text>
+    <text x="18" y="138" fill="#94A3B8" font-size="11">Hardware RFID clocks, clawbacks, payslips</text>
+  </g>
+
+  <!-- Box 6 -->
+  <g transform="translate(800, 295)">
+    <rect width="360" height="160" rx="8" fill="#0F172A" stroke="#06B6D4" stroke-width="1"/>
+    <text x="15" y="28" fill="#22D3EE" font-size="15" font-weight="700">6. Extensibility &amp; Portals</text>
+    <text x="18" y="60" fill="#E2E8F0" font-size="12">• Integration Hub &amp; Webhooks ($25/mo)</text>
+    <text x="18" y="86" fill="#E2E8F0" font-size="12">• Workflow Event Automations ($29/mo)</text>
+    <text x="18" y="112" fill="#E2E8F0" font-size="12">• Post-Call CSAT 1–5 Surveys ($19/mo)</text>
+    <text x="18" y="138" fill="#94A3B8" font-size="11">• Shared Client Portal &amp; White-Label Agency</text>
+  </g>
+
+  <!-- Bottom Presets Banner -->
+  <g transform="translate(40, 480)">
+    <rect width="1120" height="180" rx="10" fill="#182138" stroke="#6366F1" stroke-width="1"/>
+    <text x="25" y="28" fill="#C7D2FE" font-size="15" font-weight="700">1-CLICK INDUSTRY PRESETS FOR RAPID ACTIVATION</text>
+
+    <text x="25" y="60" fill="#FFFFFF" font-size="13" font-weight="700">★ Call Center (BPO):</text>
+    <text x="200" y="60" fill="#94A3B8" font-size="12">14 Modules: Core, Telephony, QA Calibration, Attendance Hub, Commissions, Support CSAT</text>
+
+    <text x="25" y="90" fill="#FFFFFF" font-size="13" font-weight="700">★ SaaS Revenue Team:</text>
+    <text x="200" y="90" fill="#94A3B8" font-size="12">12 Modules: Core, AI Scoring, Deal Intelligence, CRM Light, Integrations Hub, Automations</text>
+
+    <text x="25" y="120" fill="#FFFFFF" font-size="13" font-weight="700">★ Real Estate Agency:</text>
+    <text x="200" y="120" fill="#94A3B8" font-size="12">11 Modules: Core, Campaigns, Contacts Light, Commissions, Client Portal, Marketing CMS</text>
+
+    <text x="25" y="150" fill="#FFFFFF" font-size="13" font-weight="700">★ Regulated Advisory:</text>
+    <text x="200" y="150" fill="#94A3B8" font-size="12">12 Modules: Core, Compliance Redaction, QA Review, Deal Health, Battlecards, Payroll</text>
+  </g>
+</svg>
